@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+
+        <title>ASUS Vivobook 15X OLED</title>
+    </head>
+    <body>
+        <header id="header">
+            <div class="logo-d">
+                <img id="header-img" src="images/v-logo.png" alt="a-logo">
+            </div>
+            <nav id="nav-bar">
+                <ul class="nav-links">
+                    <li class="nav-link"><a href="#home">Home</a></li>
+                    <li class="nav-link"><a href="#prev">Preview</a></li>
+                    <li class="nav-link"><a href="#subscribe">Subscribe</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="cntr">
+            <section class="sec-1" id="home">
+                <div class="img">
+                    <img class="asus-pre" src="images/w800.png" alt="asus-vivobook-15">
+                </div>
+                <div class="fp">
+                    <p>Make your world shine with <span class="hyder">ASUS Vivobook 15X OLED</span>. 
+                        The feature-packed laptop, everything about it has been improved.</p>
+                    <button class="rmb" value="read-more">Read More</button>
+                </div>
+            </section>
+            <h2 class="hdr-2" id="prev">VivoBook 15X OLED Preview</h2>    
+            <section class="sec-2">
+                <div class="pre-v">
+                    <div class="icon-1">
+                        <img src="./images/screen.png" alt="screen" class="screen">
+                        <p class="icon-des-screen">Screen</p>
+                    </div>
+                    <div class="icon-2">
+                        <img src="./images/ssd.png" alt="ssd" class="ssd">
+                        <p class="icon-des">Hard Disk</p>
+                    </div>
+                </div>
+                <iframe id="video" class="vd" width="806" height="453" 
+                src="https://www.youtube.com/embed/1X1-yFXfx8M" 
+                title="See Your True Colors - Vivobook Pro 14/15 OLED | ASUS" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                ></iframe>
+                <div class="pre-v">
+                    <div class="icon-3">
+                        <img src="./images/processor.png" alt="processor" class="processor">
+                        <p class="icon-des">Processor</p>
+                    </div>
+                    <div class="icon-4">
+                        <img src="./images/ram.png" alt="ram" class="ram">
+                        <p class="icon-des">RAM</p>
+                    </div>
+                </div>
+            </section>
+            <p class="email-par" id="subscribe">Subscribe to our e-mail list 
+                to get weekly tech 📨 newsletter.</p>
+            <form id="form" class="sec-3" action="https://www.freecodecamp.com/email-submit" method="post">
+                <input type="email" name="email" id="email" placeholder="Enter Your e-mail...">
+                <input id="submit" class="sbmt" type="submit"  value="Subscribe">
+            </form>
+        </main>
+    </body>
+</html>
